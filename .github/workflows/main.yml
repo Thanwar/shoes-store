@@ -43,4 +43,4 @@ jobs:
     - name: install surge
       run: npm install -g surge
     - name: run surge
-      run: surge ./build thanwar-covidtracker.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build thanwar-shoesstore.surge.sh --token ${{secrets.SURGE_TOKEN}}
